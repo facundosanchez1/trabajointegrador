@@ -78,12 +78,12 @@ a {
 .tag{
     color: black;
     background-color: #ffd000;
-    --bs-btn-padding-x: 0.55rem;
+    --bs-btn-padding-x: 0.5rem;
     --bs-btn-padding-y: 0rem;
     --bs-btn-border-radius: var(--bs-border-radius);
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius: var(--bs-btn-border-radius);
+    border-radius:5px;
 
 }
 .tag2{
@@ -95,26 +95,27 @@ a {
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
     border-radius: var(--bs-btn-border-radius);
+
 }
 .tag3{
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: rgb(119, 119, 119);
     --bs-btn-padding-x: 0.55rem;
     --bs-btn-padding-y: 0rem;
     --bs-btn-border-radius: var(--bs-border-radius);
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius: var(--bs-btn-border-radius);
+    border-radius: 5px
 }
 .tag4{
     color: white;
     background-color: #cf0202;
-    --bs-btn-padding-x: 0.50rem;
+    --bs-btn-padding-x: 0.55rem;
     --bs-btn-padding-y: 0rem;
     --bs-btn-border-radius: var(--bs-border-radius);
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius: var(--bs-btn-border-radius);
+    border-radius: 5px
 }
 
 .container{
