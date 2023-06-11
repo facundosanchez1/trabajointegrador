@@ -15,65 +15,57 @@ html {
 header{
     background-size: cover;
     height: 100vh;
-    position: relative;
+    position: relative;
 }
 
 body {
     background-color: white;
 }
 
-
-
 .seccion-conferencia {
     color: white;
 }
+
 img {
     width: 20%;
 }
+
 .CB{
     color: white;
-    font-size: 30px ;
-    
+    font-size: 30px;
 }
+
 .size-img{
     opacity: 40%;
     width: 100%;
     height: 790px;
 }
 
-
-
 .text-green{ 
     color: green;
-    
 }
 
 .texto1{
     color: white;
     right: 6%;
-    position:absolute;
+    position: absolute;
     top: 60%;
     width: 35%;
     align-items: end;
-
 }
-
 
 a {
     text-decoration: none;
 }
 
-
 .texto{
     color: white;
     right: 6%;
-    position:absolute;
+    position: absolute;
     top: 60%;
     width: 35%;
     align-items: end;
-
 }
-
 
 .tag{
     color: black;
@@ -83,9 +75,9 @@ a {
     --bs-btn-border-radius: var(--bs-border-radius);
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius:5px;
-
+    border-radius: 5px;
 }
+
 .tag2{
     color: white;
     background-color: #00a2ff;
@@ -95,8 +87,8 @@ a {
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
     border-radius: var(--bs-btn-border-radius);
-
 }
+
 .tag3{
     color: rgb(255, 255, 255);
     background-color: rgb(119, 119, 119);
@@ -105,8 +97,9 @@ a {
     --bs-btn-border-radius: var(--bs-border-radius);
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius: 5px
+    border-radius: 5px;
 }
+
 .tag4{
     color: white;
     background-color: #cf0202;
@@ -115,7 +108,7 @@ a {
     --bs-btn-border-radius: var(--bs-border-radius);
     padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
-    border-radius: 5px
+    border-radius: 5px;
 }
 
 .container{
@@ -124,26 +117,31 @@ a {
     flex-direction: row;
     box-sizing: border-box;
 }
+
 .col-6.themed-grid-col{
     width: 72%;
 }
+
 .col-6.themed-grid-col.text{
     width: 72%;
     background-color: rgba(53, 58, 64, 255);
     color: white;
     border-left: 0.5px solid gray;
 }
+
 .bsastexto{
     padding-left: 20px;
     font-weight: 100px;
     font-size: 19.2px;
     padding-right: 20px;
 }
+
 .honolulu{
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
 .bsasoctubre{
     margin-left: 20px;
     margin-top: 20px;
@@ -152,19 +150,68 @@ a {
 .controls2{
     width: 20%;
     height: 100%;
-display: flex;  
+    display: flex;  
 }
+
 .controls3{
     width: 20%;
     display: 10px;
-  }
-
+}
 
 .footer{
     color: white;
     right: 100%;
     width: 90%;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+}
 
+.card2{
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: blue;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: 15px;
+}
+
+.card3{
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: rgb(0, 183, 255);
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: 15px;
+}
+
+.card4{
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: orange;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: 15px;
+}
+
+.controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 200px;
+    border: 1px solid #000000;
+    font-family: 'calibri';
+    font-size: 23px;
+    color: #000000 ;
+    text-align: left;
+}
+
+.botons{
+    width: 30%;
+    background: #2fa003 ;
+    border: center;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    margin: 20x ;
+    font-size: 30x;
+    box-align: center;
+    text-align: center;
+}
+
+.form{
+    text-align: left;
 }
