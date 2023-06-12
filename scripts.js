@@ -25,5 +25,5 @@ formularioTickets.addEventListener("submit", function(event) {
 
   total = precioUnitario * cantidad;
 
-  totalAPagar.value = `Total a Pagar: $${total}`;
+  totalAPagar.value = `$${total}`;
 });
